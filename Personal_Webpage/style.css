@@ -1,6 +1,6 @@
 body{
 background-color: powderblue;
-font-family: athelas;
+font-family: ayuthaya;
 color: black;
 }
 h1{
@@ -15,10 +15,7 @@ text-align: center;
 img.me{
 float:right;
 width: 30%;
-padding-top: 10px;
-padding-right: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
+padding: 10px;;
 border-style: groove;
 border-color: cyan;
 background-color: rgb(72,94,196);
@@ -27,48 +24,12 @@ margin: 50px;
 p.bio{
 text-align: left;
 }
-table.family{
-text-align: center;
-width: 80%;
-padding-top: 10px;
-padding-right: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-border-style: groove;
-border-color: cyan;
-margin: 70px;
-background-color: rgb(72,94,196);
-}
-img.family{
+img{
 text-align: center;
 width: 50%;
-padding-top: 10px;
-padding-bottom: 10px;
+padding: 10px;
 border-style: groove;
 border-color: cyan;
-margin: 25px;
+margin: 50px;
 background-color: rgb(72,94,196);
-}
-table.pets{
-text-align: center;
-padding-top: 10px;
-padding-right: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-border-style: groove;
-border-color: cyan;
-margin: 25px;
-background-color: rgb(72,94,196);
-}
-img.pets{
-text-align: center;
-width: 50%;
-padding-top: 10px;
-padding-right: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-border-style: groove;
-border-color: cyan;
-margin: 25px;
-background-color: rgb(72,94,196);   
 }
