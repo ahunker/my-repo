@@ -1,35 +1,79 @@
-body{
-background-color: powderblue;
-font-family: ayuthaya;
-color: black;
+
+html{
+    margin: 0px;
+    padding: 0px;
+
 }
+
+body{
+background-color: #800000;
+font-family: arial, serif;
+font-size: 20px;
+color: black;
+width:100%;
+    margin: 0px;
+    padding: 0px;
+    color: #e6e6e6;
+}
+
 h1{
 text-align: center;
-border-style: groove;
-border-color: cyan;
-background-color: rgb(72,94,196);
+font-family: arial-black, sans-serif;
+font-size: 50px;
 }
+
 h2{
 text-align: center;
+font-family: arial-black, sans-serif;
+font-size: 30px;
 }
-img.me{
-float:right;
-width: 30%;
-padding: 10px;;
-border-style: groove;
-border-color: cyan;
-background-color: rgb(72,94,196);
-margin: 50px;
+
+div.text{
+    width: 60%;
+    float: right;
+    padding-right: 5%;
 }
-p.bio{
-text-align: left;
+
+div.img{
+    padding-top: 20px;
+    padding-left: 5%;
 }
+
 img{
+    float: left;
+    width: 28%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+
+p.menu{
+font-size: 23px;
+font-family: arial-narrow, sans-serif;
 text-align: center;
-width: 50%;
-padding: 10px;
-border-style: groove;
-border-color: cyan;
-margin: 50px;
-background-color: rgb(72,94,196);
+}
+
+a{
+    color:#e6e6e6;
+}
+
+div.projects{
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/* visited link */
+a:visited {
+    color: pink;
+}
+
+/* mouse over link */
+a:hover {
+    color: pink;
+}
+
+/* selected link */
+a:active {
+    color: pink;
 }
